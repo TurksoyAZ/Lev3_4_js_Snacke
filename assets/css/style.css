@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#snakeField {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+}
+
+.item {
+  background-color: rgb(237, 235, 235);
+  border: 2px solid rgb(187, 78, 233);
+  height: 50px;
+  width: 10%;
+  border-radius: 5px;
+}
